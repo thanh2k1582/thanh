@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyPageFragment"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="180dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dịch vụ"
+                android:textSize="17dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/xoxuong"
+                ></LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Xóa hết"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="12dp"
+        android:background="@android:color/darker_gray"
+        ></LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/now"
+        android:id="@+id/img_avatar"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Hổng có gì trong giỏ hết , đói quá à!"
+            android:textSize="18dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="14dp"
+            android:textColor="@android:color/tab_indicator_text"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="     Nhanh tay đặt mó ngon tụi mình cùng măm nào !!!"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

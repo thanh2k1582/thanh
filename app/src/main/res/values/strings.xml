@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tablayout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Đang đến</string>
+    <string name="favorite_fragment">Lịch sử</string>
+    <string name="my_page_fragment">Đơn nháp</string>
+</resources>
